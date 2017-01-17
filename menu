@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>Odin: A CSS Framework</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/odin-0.5.0.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="show-gridlines">
+
+  <!-- start making your grid here -->
+
+<header>
+  <div class="row">
+          <div class="col-sm-12">
+            <h1 class="text-center">Giavonies</h1>
+        </div>
+  </header>
+
+  <main>
+
+    <div class="row">
+           <div class="col-sm-12">
+           <h2 class="text-center">Hours</h2>
+         </div>
+
+         <div class="row">
+                <div class="col-sm-12">
+                <h2 class="text-center">Monday-Saturday, 9:00-5:00</h2>
+              </div>
+
+  <div class="owl-carousel">
+    <div class="item"><img src="img/ravi.jpg" alt="Fresh pizza"></div>
+    <div class="item"><img src="img/pasta2.jpg" alt="Fresh spaghetti"></div>
+    <div class="item"><img src="img/pasta.jpg" alt="Fresh pasta"></div>
+  </div>
+
+
+
+
+       <div class="row">
+              <div class="col-sm-4">
+                <img src="img/realpizza.jpg" alt="patsa" style="width:304px;height:228px;">
+
+              <div class="col-sm-4">
+                <img src="img/realpasta3.jpg" alt="patsa" style="width:304px;height:228px;">
+
+              <div class="col-sm-4">
+                <img src="img/realpasta2.jpg" alt="patsa" style="width:304px;height:228px;">
+            </div>
+
+           <div class="row">
+                  <div class="col-sm-6">Column 1</div>
+                  <div class="col-sm-6">Column 2</div>
+                </div>
+</main>
+
+<footer>
+  <div class="row">
+         <div class="col-sm-4">Column 1</div>
+         <div class="col-sm-4">Column 2</div>
+         <div class="col-sm-4">Column 3</div>
+       </div>
+
+</footer>
+
+
+
+
+  <!-- include any javascript below this line -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script>
+  $(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        items : 1,
+        loop : true,
+        margin : 10,
+        nav : true,
+        dots: true
+    })
+   })
+  </script>
+</body>
+</html>
